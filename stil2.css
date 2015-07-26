@@ -1,0 +1,231 @@
+
+/* TITLURI */
+
+h1, h2, h3
+{
+	font-family: springtime;
+	color: #777;
+}
+
+
+
+/* LINK-URI */
+
+a:link 
+{
+    color: #777;
+	text-decoration: none;
+}
+
+
+a:visited 
+{
+    color: #777;
+	text-decoration: none;
+}
+
+
+a:hover 
+{
+    color: #a0769a;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+
+a:active 
+{
+    color: #990033;
+	text-decoration: none;
+}
+
+
+/* IMAGINI */
+
+a img
+{
+	opacity: 0.8;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+a img:hover
+{
+	opacity: 1;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+
+
+/* FONTURI */
+
+body
+{
+	margin-top: 15px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #555;
+	padding: 70px;
+	text-align: justify;
+}
+
+@font-face {
+    font-family: 'aliquam';
+    src: url('fonturi/aliquam-webfont.eot');
+    src: url('fonturi/aliquam-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonturi/aliquam-webfont.woff2') format('woff2'),
+         url('fonturi/aliquam-webfont.woff') format('woff'),
+         url('fonturi/aliquam-webfont.ttf') format('truetype');
+    font-weight: 1000;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'springtime';
+    src: url('fonturi/springtime_blues-webfont.eot');
+    src: url('fonturi/springtime_blues-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonturi/springtime_blues-webfont.woff2') format('woff2'),
+         url('fonturi/springtime_blues-webfont.woff') format('woff'),
+         url('fonturi/springtime_blues-webfont.ttf') format('truetype'),
+         url('fonturi/springtime_blues-webfont.svg#springtime_bluesmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#aliquam
+{
+	font-family: aliquam;
+}
+
+
+
+/* HOME */
+
+#imagini_home img
+{
+	padding: 40px;
+}
+#imagini_home  h3
+{
+	margin-top: -30px;
+	font-family: springtime;
+}
+
+/* LOGO */
+
+#logo
+{
+	font-family: springtime;
+	color: #a0769a;
+	font-size: 100;
+	position: absolute;
+	margin-top: 90;
+	z-index: 0;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-decoration: none;
+	opacity: 0.8;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	
+}
+
+#logo a:link
+{
+	color: #a0769a;
+}
+
+#logo a:visited 
+{
+	color: #a0769a;
+}
+
+#logo:hover
+{
+	opacity: 1;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+#logo a:active
+{
+	color: #990033;
+}
+
+
+
+
+
+/* BARA DE NAVIGARE */
+
+
+
+
+nav a
+{
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav ul
+{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+nav ul li
+{
+	position: relative;
+	list-style: none;
+	display: inline-table;
+	padding: 25px;
+	text-decoration: none;
+}
+
+nav ul ul
+{
+	position: center;
+	display: none;
+	padding: 10px;
+}
+
+nav ul li:hover >ul
+{
+	display: block;
+	background-color: rgb(224, 224, 224); /* pentru browsere care nu suporta rgba */
+	background-color: rgba(224, 224, 224, 0.8);
+	border-radius: 15px;
+	white-space: normal;
+	text-align: center;
+	padding: 10;
+
+}
+
+nav ul ul li
+{
+	display:block;
+	padding: 0;
+	margin-top: 10px;
+	opacity: 1;
+}
+
+/* COPYRIGHT - CSS mutat in pagina footer.php */
+
+
+
