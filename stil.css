@@ -88,7 +88,7 @@ h1, h3
 	color: #a0769a;
 	font-size: 100;
 	position: absolute;
-	margin-top: 90;
+	margin-top: 110;
 	z-index: 0;
 	margin-left: auto;
 	margin-right: auto;
@@ -158,6 +158,8 @@ nav ul li
 	display: inline-table;
 	padding: 25px;
 	text-decoration: none;
+    text-shadow: 0 0 1px #FFF;
+
 }
 
 nav ul ul
@@ -171,7 +173,7 @@ nav ul li:hover >ul
 {
 	display: block;
 	background-color: rgb(236, 236, 236); /* pentru browsere care nu suporta rgba */
-	background-color: rgba(236, 236, 236, 0.8);
+	background-color: rgba(250, 250, 250, 0.8);
 	border-radius: 15px;
 	white-space: normal;
 	text-align: center;

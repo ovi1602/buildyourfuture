@@ -25,6 +25,7 @@
 						<li><a href="argument.php" target="container">Argument</a></li>
 						<li><a href="summary.php" target="container">Project Summary</a></li>
 						<li><a href="activities.php" target="container">Activities</a></li>
+						<li><a href="rules.php"  target="container">Rules</a></li>
 					</ul>
 				</li>
 				<li><a href="partners.php" target="container"><img src="imagini/buton_50px.png" width="30" />Partners</a>

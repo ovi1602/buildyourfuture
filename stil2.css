@@ -7,7 +7,38 @@ h1, h2, h3
 	color: #777;
 }
 
+/* INPUT */
 
+input[type="submit"]
+{
+	font-family: springtime;
+	background-color: #a0769a;
+	border-radius: 12px;
+	font-size: x-large;
+	padding: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
+	color: #fff;
+	opacity: 0.8;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover
+{
+	opacity: 1;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+input[type="submit"]:active
+{
+	color: #990033;
+}
 
 /* LINK-URI */
 
