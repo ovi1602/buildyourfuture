@@ -57,7 +57,7 @@ else if(document.getElementById("prof").checked==true)
 <div align="center">
 <input type="radio" value="0" name="flag" onchange="check();" id="prof">Profesor</input>
 <input type="radio" name="flag" value="9999999" onchange="check();" id="eval">Evaluator</input>
-<input type="radio" name="flag" id="elev" value="16" onchange="check();">Elev</input>
+<input type="radio" name="flag" id="elev" onchange="check();" value="16">Elev</input>
 
 </div>
 </td>

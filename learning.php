@@ -3,26 +3,35 @@
 <meta charset="UTF-8"/>
 <link rel="stylesheet" type="text/css" href="stil2.css"/>
 
-<h1> loc_TITLU_TUTORIAL </h1>
 
-<div> loc_CONTENT_TUTORIAL
+<?php
+$serv='localhost';
+$nume='buildyourfuture';
+$pass='d1F0S3D644lgvHcy';
+$con=mysql_connect($serv, $nume, $pass);
+if(!$con)
+{
+mysql_die();
+}
+mysql_select_db('buildyourfuture', $con);
+$s=mysql_query("SELECT * FROM learning");
+while($k=mysql_fetch_array($s))
+{
+	$t_tut=$k['t_tut'];
+	$tut=$k['tut'];
+?>
+
+<h1> <?php echo $t_tut;?> </h1>
+
+<div> <?php echo $tut;?>
 
 </div>
-<h6> Posted by AUTHOR, TIME</h6> 
+<h6> Posted by Admin</h6> 
+<br><br>
+<?php
+}
+?>
 
-<!-- user si data la care s-o postat, zi, luna, an-->
-
-<h1> loc_TITLU_TUTORIAL2 </h1>
-
-<div> loc_CONTENT_TUTORIAL2
-
-
-</div>
-
-<h6> Posted by AUTHOR, TIME</h6> 
-
-
-<!-- si tot asa -->
 
 
 

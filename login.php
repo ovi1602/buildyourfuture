@@ -7,7 +7,7 @@
 
 <center>
 <div>
-
+		<form action="lg.php" method="post">
 		Username:<input type="text" name="name" style="height:25px;width:150px;color:black;"> <br /><br />
 		Password:<input type="password" name="pass" style="height:25px;width:150px;color:black;"><br /> <br />
 		<input type="submit" value="Login" style="height:50px;width:150px"></form>
